@@ -2,9 +2,9 @@ import os
 import random
 import ctypes
 
-path = 'C:\\Users\\theDima\\Pictures\\4K Wallpapers by Howdy & Cat of Bar'
+path = 'Путь_До_Папки_С_Обоями'
 
-
+# выбираем случайное изображение из папки
 def random_wallpaper(path: str) -> str:
     amount = os.listdir(path=path)
     image = random.choice(amount)
